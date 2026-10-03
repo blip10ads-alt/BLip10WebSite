@@ -25,12 +25,48 @@
 <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
 <link href="B10FBProfilePic.png" rel="icon" sizes="180x180" type="image/png">
 <link href="B10FBProfilePic.png" rel="icon" sizes="180x180" type="image/png">
-<link href="css/Blip10.css?v=30" rel="stylesheet">
-<link href="css/index.css?v=30" rel="stylesheet">
+<link href="css/Blip10.css?v=31" rel="stylesheet">
+<link href="css/index.css?v=31" rel="stylesheet">
 <script src="jquery-3.7.1.min.js"></script>
 <script src="jquery.inputmask.min.js"></script>
 <link rel="stylesheet" href="magnificpopup/magnific-popup.css">
 <script src="magnificpopup/jquery.magnific-popup.min.js"></script>
+<script>
+function submitContact()
+{
+   var regexp;
+   var Input2 = document.getElementById('Input2');
+   if (!(Input2.disabled || Input2.style.display === 'none' || Input2.style.visibility === 'hidden'))
+   {
+      if (Input2.value == "")
+      {
+         alert("Please enter a value for the \"NAME\" field.");
+         Input2.focus();
+         return false;
+      }
+   }
+   var Input1 = document.getElementById('Input1');
+   if (!(Input1.disabled || Input1.style.display === 'none' || Input1.style.visibility === 'hidden'))
+   {
+      if (Input1.value == "")
+      {
+         alert("Please enter a value for the \"Phone\" field.");
+         Input1.focus();
+         return false;
+      }
+   }
+   var Input3 = document.getElementById('Input3');
+   if (!(Input3.disabled || Input3.style.display === 'none' || Input3.style.visibility === 'hidden'))
+   {
+      if (Input3.value == "")
+      {
+         alert("Please enter a value for the \"Business Name\" field.");
+         Input3.focus();
+         return false;
+      }
+   }
+}
+</script>
 <script>
 function submitBlip10websiteform()
 {
@@ -590,7 +626,7 @@ $(document).ready(function()
 <form name="Blip10websiteform" method="post" action="" enctype="multipart/form-data" accept-charset="UTF-8" target="_self" id="LayoutGrid28" onsubmit="return submitBlip10websiteform()" <form name="contact" data-netlify="true">>
 <div class="col-1">
 <div id="wb_LayoutGrid26">
-<div id="LayoutGrid26">
+<form name="Contact" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" accept-charset="UTF-8" target="_self" id="LayoutGrid26" onsubmit="return submitContact()" name="contact" space data-netlify="true">
 <div class="col-1">
 <label for="Input2" id="Label2">Name *</label>
 <input type="text" id="Input2" name="NAME" value="" spellcheck="false" placeholder="Your full name">
@@ -599,12 +635,12 @@ $(document).ready(function()
 <label for="Input3" id="Label3">Business Name*</label>
 <input type="text" id="Input3" name="Business Name" value="" spellcheck="false" placeholder="Business Name">
 <label for="TextArea1" id="Label6">Message</label>
-<textarea name="TextArea1" id="TextArea1" rows="7" cols="22" spellcheck="false" placeholder="What are you promoting? Area? Goal? Service Needed?"></textarea>
+<textarea name="TextArea1" id="TextArea1" rows="5" cols="56" spellcheck="false" placeholder="What are you promoting? Area? Goal? Service Needed?"></textarea>
 <button type="submit" id="IconButton1" name="IconButton1" value="GET MY QUOTE" class="ui-button ui-corner-all">GET MY QUOTE</button>
 </div>
 <div class="col-2">
 </div>
-</div>
+</form>
 </div>
 <div id="wb_LayoutGrid27">
 <div id="LayoutGrid27">
