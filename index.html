@@ -25,8 +25,8 @@
 <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
 <link href="B10FBProfilePic.png" rel="icon" sizes="180x180" type="image/png">
 <link href="B10FBProfilePic.png" rel="icon" sizes="180x180" type="image/png">
-<link href="css/Blip10.css?v=26" rel="stylesheet">
-<link href="css/index.css?v=26" rel="stylesheet">
+<link href="css/Blip10.css?v=27" rel="stylesheet">
+<link href="css/index.css?v=27" rel="stylesheet">
 <script src="jquery-3.7.1.min.js"></script>
 <script src="jquery.inputmask.min.js"></script>
 <script src="wb.selectmulti.min.js"></script>
@@ -99,8 +99,28 @@ document.addEventListener('DOMContentLoaded', function(event)
 <script>
 $(document).ready(function()
 {
+   $("a[href*='#LayoutGrid4']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid4').offset().top }, 600, 'linear');
+   });
+   $("a[href*='#LayoutGrid12']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid12').offset().top }, 600, 'linear');
+   });
    $("a[data-rel='PhotoGallery1']").attr('rel', 'PhotoGallery1');
    $("#PhotoGallery1").magnificPopup({delegate:'a', type:'image', zoom: { enabled: true, duration: 300, easing: 'ease-in-out' }, gallery: {enabled: true, navigateByImgClick: true}});
+   $("a[href*='#LayoutGrid15']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid15').offset().top }, 600, 'linear');
+   });
+   $("a[href*='#LayoutGrid25']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid25').offset().top }, 600, 'linear');
+   });
    $("#Input1").inputmask('(999) 999-9999');
    LoadValue('Input2', 'local', 0);
    LoadValue('Input1', 'local', 0);
@@ -205,10 +225,10 @@ $(document).ready(function()
 <label class="toggle" for="menu33Menu1-submenu" id="menu33Menu1-title">Menu<span id="menu33Menu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
 <input type="checkbox" id="menu33Menu1-submenu">
 <ul class="menu33Menu1" id="menu33Menu1" role="menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
-<li itemprop="name" role="menuitem"><a href="#welcomeLayoutGrid" itemprop="url" class="nav-link">HOME</a></li>
-<li itemprop="name" role="menuitem"><a href="#featuresLayoutGrid" itemprop="url" class="nav-link">FAQ</a></li>
-<li itemprop="name" role="menuitem"><a href="#contentLayoutGrid1" itemprop="url" class="nav-link">ABOUT</a></li>
-<li itemprop="name" role="menuitem"><a href="#featuresLayoutGrid" itemprop="url" class="nav-link">GALLERY</a></li>
+<li itemprop="name" role="menuitem"><a href="#LayoutGrid4" title="SERVICES" itemprop="url" class="nav-link">SERVICES</a></li>
+<li itemprop="name" role="menuitem"><a href="#LayoutGrid15" title="BUNDLE" itemprop="url" class="nav-link">BUNDLE</a></li>
+<li itemprop="name" role="menuitem"><a href="#LayoutGrid12" title="WORK" itemprop="url" class="nav-link">WORK</a></li>
+<li itemprop="name" role="menuitem"><a href="#LayoutGrid25" title="CONTACT" itemprop="url" class="nav-link">CONTACT</a></li>
 </ul>
 
 </div>
@@ -435,8 +455,8 @@ $(document).ready(function()
 <div id="Section1-card-item0">500 Door Hangers</div>
 <div id="Section1-card-item1">25 Yard Signs + Stakes</div>
 <div id="Section1-card-item2">One-Page Website</div>
-<div id="Section1-card-item3">Free Business Card Design</div>
-<div id="Section1-card-item4"><a href="https://www.wysiwygwebbuilder.com" title="CLAIM BUNDLE">CLAIM BUNDLE</a></div>
+<div id="Section1-card-item3"><a href="#LayoutGrid25" title="CLAIM BUNDLE">CLAIM BUNDLE</a></div>
+<div id="Section1-card-item4">Free Business Card Design</div>
 <div id="Section1-card-item5">14pt, full bleed,<br>double-sided</div>
 <hr id="Section1-card-item6">
 <hr id="Section1-card-item7">
@@ -482,6 +502,8 @@ $(document).ready(function()
 <div id="wb_Text19">
 <span style="color:#888888;">We walk your block. Who lives there? What do <br>they search? One call to map your visibility gaps.</span>
 </div>
+</div>
+<div class="col-2">
 <div id="wb_LayoutGrid19">
 <div id="LayoutGrid19">
 <div class="col-1">
@@ -493,8 +515,6 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-</div>
-<div class="col-2">
 <div id="wb_Text21">
 <span style="color:#F5F5F5;">Design</span>
 </div>
@@ -634,7 +654,7 @@ $(document).ready(function()
 <label for="" id="Label5">Quantity / Details</label>
 <input type="text" id="Input5" name="Quantity / Details" value="" spellcheck="false" placeholder="e.g. 500 door hangers, 25 signs + stakes, rush?">
 <label for="" id="Label6">Message</label>
-<textarea name="TextArea1" id="TextArea1" rows="7" cols="59" spellcheck="false">What are you promoting? Area? Goal?</textarea>
+<textarea name="TextArea1" id="TextArea1" rows="5" cols="49" spellcheck="false">What are you promoting? Area? Goal?</textarea>
 <button type="submit" id="IconButton1" name="IconButton1" value="GET MY QUOTE" class="ui-button ui-corner-all">GET MY QUOTE</button>
 <div id="wb_Text33">
 <span style="color:#888888;">Or text us directly:</span><span style="color:#F5F5F5;"> (661) 800-6037 </span><span style="color:#888888;">— fastest reply</span>
