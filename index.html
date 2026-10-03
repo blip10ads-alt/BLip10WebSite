@@ -25,11 +25,10 @@
 <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
 <link href="B10FBProfilePic.png" rel="icon" sizes="180x180" type="image/png">
 <link href="B10FBProfilePic.png" rel="icon" sizes="180x180" type="image/png">
-<link href="css/Blip10.css?v=29" rel="stylesheet">
-<link href="css/index.css?v=29" rel="stylesheet">
+<link href="css/Blip10.css?v=30" rel="stylesheet">
+<link href="css/index.css?v=30" rel="stylesheet">
 <script src="jquery-3.7.1.min.js"></script>
 <script src="jquery.inputmask.min.js"></script>
-<script src="wb.selectmulti.min.js"></script>
 <link rel="stylesheet" href="magnificpopup/magnific-popup.css">
 <script src="magnificpopup/jquery.magnific-popup.min.js"></script>
 <script>
@@ -68,7 +67,6 @@ function submitBlip10websiteform()
    }
 }
 </script>
-<script src="wwb21.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function(event)
 {
@@ -80,19 +78,6 @@ document.addEventListener('DOMContentLoaded', function(event)
          var checkbox = document.querySelector('#wb_menu33Menu1 input');
          checkbox.checked = false;
       });
-   });
-   selectMulti.init('#SelectMulti1',
-   {
-      allowAdditions: false,
-      clearable: false,
-      hideSelected: true,
-      maxSelections: 5,
-      message:
-      {
-         maxSelections: 'You can only select 3 items.',
-         noResults: 'No results found.',
-         placeHolder: 'Select values'
-      },
    });
 });
 </script>
@@ -122,22 +107,6 @@ $(document).ready(function()
       $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid25').offset().top }, 600, 'linear');
    });
    $("#Input1").inputmask('(999) 999-9999');
-   LoadValue('Input2', 'local', 0);
-   LoadValue('Input1', 'local', 0);
-   LoadValue('Input3', 'local', 0);
-   LoadValue('SelectMulti1', 'local', 2);
-   LoadValue('Input5', 'local', 0);
-   LoadValue('TextArea1', 'local', 0);
-   $("#LayoutGrid28").submit(function(event)
-   {
-      StoreValue('Input2', 'local', 0);
-      StoreValue('Input1', 'local', 0);
-      StoreValue('Input3', 'local', 0);
-      StoreValue('SelectMulti1', 'local', 2);
-      StoreValue('Input5', 'local', 0);
-      StoreValue('TextArea1', 'local', 0);
-      return true;
-   });
 });
 </script>
 <!-- Insert Google Analytics code here -->
@@ -618,8 +587,7 @@ $(document).ready(function()
 </div>
 </div>
 <div id="wb_LayoutGrid28">
-<form name="Blip10websiteform" method="post" action="blip10ads@gmail.com" enctype="multipart/form-data" accept-charset="UTF-8" target="_self" id="LayoutGrid28" onsubmit="return submitBlip10websiteform()" <form name="contact" data-netlify="true">>
-<div class="row">
+<form name="Blip10websiteform" method="post" action="" enctype="multipart/form-data" accept-charset="UTF-8" target="_self" id="LayoutGrid28" onsubmit="return submitBlip10websiteform()" <form name="contact" data-netlify="true">>
 <div class="col-1">
 <div id="wb_LayoutGrid26">
 <div id="LayoutGrid26">
@@ -628,34 +596,19 @@ $(document).ready(function()
 <input type="text" id="Input2" name="NAME" value="" spellcheck="false" placeholder="Your full name">
 <label for="Input1" id="Label1">Phone *</label>
 <input type="tel" id="Input1" name="Phone" value="" spellcheck="false" placeholder="(661)123-4567">
-</div>
-<div class="col-2">
 <label for="Input3" id="Label3">Business Name*</label>
 <input type="text" id="Input3" name="Business Name" value="" spellcheck="false" placeholder="Business Name">
-<label for="" id="Label4">Service Needed *</label>
-<div id="wb_SelectMulti1">
-<div id="SelectMulti1" class="search dropdown selection multiple">
-<select name="SelectMulti1" multiple size="1" id="SelectMulti1-select">
-<option value="">Door Hangers</option>
-<option>Yard Signs</option>
-<option>Websites</option>
-<option>Print Essentials</option>
-<option>The Bundle - Best Value</option>
-</select></div>
+<label for="TextArea1" id="Label6">Message</label>
+<textarea name="TextArea1" id="TextArea1" rows="7" cols="22" spellcheck="false" placeholder="What are you promoting? Area? Goal? Service Needed?"></textarea>
+<button type="submit" id="IconButton1" name="IconButton1" value="GET MY QUOTE" class="ui-button ui-corner-all">GET MY QUOTE</button>
 </div>
-</div>
-<div class="col-3">
+<div class="col-2">
 </div>
 </div>
 </div>
 <div id="wb_LayoutGrid27">
 <div id="LayoutGrid27">
 <div class="col-1">
-<label for="Input5" id="Label5">Quantity / Details</label>
-<input type="text" id="Input5" name="Quantity / Details" value="" spellcheck="false" placeholder="e.g. 500 door hangers, 25 signs + stakes, rush?">
-<label for="TextArea1" id="Label6">Message</label>
-<textarea name="TextArea1" id="TextArea1" rows="5" cols="49" spellcheck="false" placeholder="What are you promoting? Area? Goal?"></textarea>
-<button type="submit" id="IconButton1" name="IconButton1" value="GET MY QUOTE" class="ui-button ui-corner-all">GET MY QUOTE</button>
 <div id="wb_Text33">
 <span style="color:#888888;">Or text us directly:</span><span style="color:#F5F5F5;"> (661) 800-6037 </span><span style="color:#888888;">— fastest reply</span>
 </div>
@@ -666,7 +619,6 @@ $(document).ready(function()
 </div>
 </div>
 <div class="col-2">
-</div>
 </div>
 </form>
 </div>
