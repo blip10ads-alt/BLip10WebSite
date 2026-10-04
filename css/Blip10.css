@@ -1,3 +1,45 @@
+@font-face
+{
+   font-family: Inter;
+   font-display: swap;
+   src: url('../verdana.ttf') format('truetype');
+}
+@font-face
+{
+   font-family: "Inter 28pt 28pt ExtraBold";
+   font-display: swap;
+   src: url('../verdana.ttf') format('truetype');
+}
+@font-face
+{
+   font-family: "Inter 18pt 18pt";
+   font-display: swap;
+   src: url('../verdana.ttf') format('truetype');
+}
+@font-face
+{
+   font-family: "Inter 18pt 18pt Black";
+   font-display: swap;
+   src: url('../verdana.ttf') format('truetype');
+}
+@font-face
+{
+   font-family: "Inter Medium";
+   font-display: swap;
+   src: url('../verdana.ttf') format('truetype');
+}
+@font-face
+{
+   font-family: "Inter 18pt 18pt ExtraBold";
+   font-display: swap;
+   src: url('../verdana.ttf') format('truetype');
+}
+@font-face
+{
+   font-family: "Inter 28pt 28pt Black";
+   font-display: swap;
+   src: url('../verdana.ttf') format('truetype');
+}
 @keyframes animate-flash
 {
    0% { opacity: 1;  }
