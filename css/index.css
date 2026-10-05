@@ -630,8 +630,8 @@ body
 {
    display: block;
    background-color: rgba(255,255,255,0.00);
-   font-family: "Inter 18pt 18pt";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 400;
    text-align: right;
    width: 100%;
    margin: 0;
@@ -674,8 +674,8 @@ body
 {
    background-color: rgba(255,255,255,0.00);
    color: #999999;
-   font-family: "Inter 18pt 18pt";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 400;
    font-size: 13px;
    font-style: normal;
    text-decoration: none;
@@ -1137,8 +1137,8 @@ body
 #wb_Text5
 {
    color: #F5F5F5;
-   font-family: "Inter 18pt 18pt Black";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 900;
    font-size: 64px;
 }
 #wb_Text5 div
@@ -1413,8 +1413,8 @@ body
 #wb_Text7
 {
    color: #F5F5F5;
-   font-family: "Inter 18pt 18pt Black";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 900;
    font-size: 64px;
 }
 #wb_Text7 div
@@ -1673,8 +1673,8 @@ body
 #wb_Text9
 {
    color: #F5F5F5;
-   font-family: "Inter 18pt 18pt Black";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 900;
    font-size: 64px;
 }
 #wb_Text9 div
@@ -1933,8 +1933,8 @@ body
 #wb_Text11
 {
    color: #F5F5F5;
-   font-family: "Inter 18pt 18pt Black";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 900;
    font-size: 64px;
 }
 #wb_Text11 div
@@ -2084,8 +2084,8 @@ body
 #wb_Text13
 {
    color: #F5F5F5;
-   font-family: "Inter 28pt 28pt ExtraBold";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 800;
    font-size: 75px;
 }
 #wb_Text13 div
@@ -2477,8 +2477,8 @@ body
 #wb_Text16
 {
    color: #F5F5F5;
-   font-family: "Inter 28pt 28pt ExtraBold";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 800;
    font-size: 75px;
 }
 #wb_Text16 div
@@ -2639,7 +2639,7 @@ body
    margin: 0;
    position: absolute;
    left: 4.1%;
-   top: 8.3%;
+   top: 8.2%;
    height: 6.4%;
    width: 23.6%;
    padding: 0;
@@ -2743,8 +2743,9 @@ body
    width: 27.9%;
    padding: 0;
    color: #888888;
-   font-family: "Inter Medium";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 500;   font-stretch: 100%;
+
    font-style: normal;
    font-size: 12px;
    letter-spacing: 2px;
@@ -2800,8 +2801,9 @@ body
    width: 29.7%;
    padding: 0;
    color: #888888;
-   font-family: "Inter Medium";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 500;   font-stretch: 100%;
+
    font-style: normal;
    font-size: 12px;
    letter-spacing: 2px;
@@ -2818,8 +2820,9 @@ body
    width: 27.7%;
    padding: 0;
    color: #888888;
-   font-family: "Inter Medium";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 500;   font-stretch: 100%;
+
    font-style: normal;
    font-size: 12px;
    letter-spacing: 2px;
@@ -2836,8 +2839,9 @@ body
    width: 23.9%;
    padding: 0;
    color: #888888;
-   font-family: "Inter Medium";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 500;   font-stretch: 100%;
+
    font-style: normal;
    font-size: 12px;
    letter-spacing: 2px;
@@ -2867,8 +2871,8 @@ body
    width: 25%;
    padding: 0;
    color: #F5F5F5;
-   font-family: "Inter 18pt 18pt ExtraBold";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 800;
    font-style: normal;
    font-size: 53px;
    text-align: left;
@@ -3087,8 +3091,8 @@ body
 #wb_Text18
 {
    color: #F5F5F5;
-   font-family: "Inter 18pt 18pt Black";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 900;
    font-size: 32px;
 }
 #wb_Text18 div
@@ -3185,8 +3189,8 @@ body
 #wb_Text21
 {
    color: #F5F5F5;
-   font-family: "Inter 18pt 18pt Black";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 900;
    font-size: 32px;
 }
 #wb_Text21 div
@@ -3213,8 +3217,8 @@ body
 #wb_Text22
 {
    color: #F5F5F5;
-   font-family: "Inter 18pt 18pt Black";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 900;
    font-size: 32px;
 }
 #wb_Text22 div
@@ -3641,8 +3645,8 @@ body
 #wb_Text25
 {
    color: #F5F5F5;
-   font-family: "Inter 28pt 28pt ExtraBold";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 800;
    font-size: 107px;
 }
 #wb_Text25 div
@@ -3860,8 +3864,8 @@ body
 #wb_Text27
 {
    color: #F5F5F5;
-   font-family: "Inter 28pt 28pt Black";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 900;
    font-size: 27px;
 }
 #wb_Text27 div
@@ -3973,8 +3977,8 @@ body
 #wb_Text31
 {
    color: #F5F5F5;
-   font-family: "Inter 28pt 28pt ExtraBold";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 800;
    font-size: 27px;
 }
 #wb_Text31 div
@@ -4076,8 +4080,8 @@ body
    background-color: transparent;
    background-image: none;
    color: #888888;
-   font-family: "Inter 18pt 18pt";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 400;
    font-style: normal;
    font-size: 12px;
    text-align: left;
@@ -4120,8 +4124,8 @@ body
    background-color: transparent;
    background-image: none;
    color: #888888;
-   font-family: "Inter 18pt 18pt";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 400;
    font-style: normal;
    font-size: 12px;
    text-align: left;
@@ -4164,8 +4168,8 @@ body
    background-color: transparent;
    background-image: none;
    color: #888888;
-   font-family: "Inter 18pt 18pt";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 400;
    font-style: normal;
    font-size: 12px;
    text-align: left;
@@ -4287,8 +4291,8 @@ body
    background-color: transparent;
    background-image: none;
    color: #888888;
-   font-family: "Inter 18pt 18pt";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 400;
    font-style: normal;
    font-size: 12px;
    text-align: left;
@@ -4611,8 +4615,8 @@ body
 #wb_Text34
 {
    color: #4F4F4F;
-   font-family: "Inter 18pt 18pt";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 400;
    font-size: 13px;
 }
 #wb_Text34 div
@@ -4642,8 +4646,8 @@ body
 }
 #IconButton1
 {
-   font-family: "Inter 18pt 18pt";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 400;
    font-size: 12px;
    font-style: normal;
    display: inline-block;
@@ -4786,8 +4790,8 @@ body
 #wb_Text35
 {
    color: #F5F5F5;
-   font-family: "Inter 28pt 28pt ExtraBold";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 800;
    font-size: 96px;
 }
 #wb_Text35 div
@@ -4815,8 +4819,8 @@ body
 #wb_Text36
 {
    color: #F5F5F5;
-   font-family: "Inter 28pt 28pt ExtraBold";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 800;
    font-size: 96px;
 }
 #wb_Text36 div
@@ -6675,8 +6679,9 @@ body
    width: 27.9%;
    padding: 0;
    color: #888888;
-   font-family: "Inter Medium";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 500;   font-stretch: 100%;
+
    font-style: normal;
    font-size: 17px;
    letter-spacing: 2px;
@@ -6732,8 +6737,9 @@ body
    width: 29.7%;
    padding: 0;
    color: #888888;
-   font-family: "Inter Medium";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 500;   font-stretch: 100%;
+
    font-style: normal;
    font-size: 17px;
    letter-spacing: 2px;
@@ -6750,8 +6756,9 @@ body
    width: 27.7%;
    padding: 0;
    color: #888888;
-   font-family: "Inter Medium";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 500;   font-stretch: 100%;
+
    font-style: normal;
    font-size: 17px;
    letter-spacing: 2px;
@@ -6768,8 +6775,9 @@ body
    width: 23.9%;
    padding: 0;
    color: #888888;
-   font-family: "Inter Medium";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 500;   font-stretch: 100%;
+
    font-style: normal;
    font-size: 17px;
    letter-spacing: 2px;
@@ -6799,8 +6807,8 @@ body
    width: 25%;
    padding: 0;
    color: #F5F5F5;
-   font-family: "Inter 18pt 18pt ExtraBold";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 800;
    font-style: normal;
    font-size: 53px;
    text-align: left;
@@ -9441,8 +9449,9 @@ body
    width: 71%;
    padding: 0;
    color: #888888;
-   font-family: "Inter Medium";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 500;   font-stretch: 100%;
+
    font-style: normal;
    font-size: 12px;
    letter-spacing: 2px;
@@ -9498,8 +9507,9 @@ body
    width: 49%;
    padding: 0;
    color: #888888;
-   font-family: "Inter Medium";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 500;   font-stretch: 100%;
+
    font-style: normal;
    font-size: 12px;
    letter-spacing: 2px;
@@ -9516,8 +9526,9 @@ body
    width: 55.5%;
    padding: 0;
    color: #888888;
-   font-family: "Inter Medium";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 500;   font-stretch: 100%;
+
    font-style: normal;
    font-size: 12px;
    letter-spacing: 2px;
@@ -9534,8 +9545,9 @@ body
    width: 44.1%;
    padding: 0;
    color: #888888;
-   font-family: "Inter Medium";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 500;   font-stretch: 100%;
+
    font-style: normal;
    font-size: 12px;
    letter-spacing: 2px;
@@ -9565,8 +9577,8 @@ body
    width: 46.6%;
    padding: 0;
    color: #F5F5F5;
-   font-family: "Inter 18pt 18pt ExtraBold";
-   font-weight: normal;
+   font-family: "Inter";
+   font-weight: 800;
    font-style: normal;
    font-size: 43px;
    text-align: left;
