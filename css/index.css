@@ -2579,8 +2579,8 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   flex-basis: 91.66666667%;
-   max-width: 91.66666667%;
+   flex-basis: 100%;
+   max-width: 100%;
    display: flex;
    flex-wrap: wrap;
    align-content: center;
@@ -2595,8 +2595,6 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   flex-basis: 8.33333333%;
-   max-width: 8.33333333%;
    display: flex;
    flex-wrap: wrap;
    align-content: flex-start;
@@ -2617,11 +2615,13 @@ body
 {
    height: 596px;
    position: relative;
-   display: inline-block;
+   display: flex;
    flex-direction: column;
    box-sizing: border-box;
    margin: 0;
-   vertical-align: top;
+   max-width: 500px;
+   margin-left: auto !important;
+   margin-right: auto !important;
    background-color: #0F0F0F;
    background-image: none;
    border: 1px solid #2C2C2C;
@@ -5090,9 +5090,8 @@ body
 }
 #wb_Section1
 {
-   display: inline-block;
-   width: 726px;
-   height: 594px;
+   display: flex;
+   width: 100%;
    z-index: 46;
 }
 #wb_Image5
@@ -5395,12 +5394,12 @@ body
    width: calc(100% - 10px);
    visibility: visible;
    display: block;
-   margin: 0 0 30px 10px;
+   margin: 0 0 10px 10px;
 }
 #wb_header4Text
 {
    font-size: 19px;
-   margin: 0 0 30px 10px;
+   margin: 0 0 10px 10px;
    padding: 15px 0 0 0;
    text-align: left;
    line-height: 37px;
@@ -5423,11 +5422,11 @@ body
    width: 100%;
    visibility: visible;
    display: block;
-   margin: 99px 0 0 0 ;
+   margin: 50px 0 0 0 ;
 }
 #wb_Text2
 {
-   margin: 99px 0 0 0 ;
+   margin: 50px 0 0 0 ;
    padding: 0 0 20px 0;
 }
 #wb_Shape2
@@ -5450,7 +5449,7 @@ body
 #LayoutGrid1
 {
    height: auto;
-   padding: 150px 0 20px 0;
+   padding: 50px 0 20px 0;
 }
 #LayoutGrid1 > .col-1, #LayoutGrid1 > .col-2
 {
@@ -6551,9 +6550,9 @@ body
 }
 #LayoutGrid15 > .col-3
 {
-   display: flex;
-   flex-basis: 100%;
-   max-width: 100%;
+   display: none;
+   flex-basis: 0;
+   max-width: 0;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    align-content: flex-start;
@@ -6563,10 +6562,9 @@ body
 }
 #wb_Section1
 {
-   width: 735px;
-   height: 876px;
+   width: 100%;
    visibility: visible;
-   display: inline-block;
+   display: flex;
    margin: 0;
 }
 #Section1-card-item0
@@ -7871,8 +7869,8 @@ body
 }
 #wb_Shape5
 {
-   visibility: visible;
-   display: inline-block;
+   visibility: hidden;
+   display: none;
    margin: 0;
 }
 #wb_LayoutGrid31
@@ -7883,13 +7881,13 @@ body
 #wb_LayoutGrid31
 {
    height: auto;
-   margin-top: 0px;
+   margin-top: 20px;
    margin-bottom: 0px;
 }
 #LayoutGrid31
 {
    height: auto;
-   padding: 99px 0 0 0;
+   padding: 20px 0 0 0;
 }
 #LayoutGrid31 > .col-1
 {
@@ -8193,11 +8191,11 @@ body
    width: 100%;
    visibility: visible;
    display: block;
-   margin: 110px 0 0 0 ;
+   margin: 80px 0 0 0 ;
 }
 #wb_Text2
 {
-   margin: 110px 0 0 0 ;
+   margin: 80px 0 0 0 ;
    padding: 0 0 20px 0;
 }
 #wb_Shape2
@@ -8220,7 +8218,7 @@ body
 #LayoutGrid1
 {
    height: auto;
-   padding: 150px 0 20px 0;
+   padding: 50px 0 20px 0;
 }
 #LayoutGrid1 > .col-1, #LayoutGrid1 > .col-2
 {
@@ -8479,12 +8477,12 @@ body
    width: 100%;
    visibility: visible;
    display: block;
-   margin: 10px 0 0 0 ;
+   margin: 10px 0 13px 0 ;
 }
 #wb_Text6
 {
    font-size: 13px;
-   margin: 10px 0 0 0 ;
+   margin: 10px 0 13px 0 ;
    padding: 0;
    text-align: left;
 }
@@ -8655,12 +8653,12 @@ body
    width: 100%;
    visibility: visible;
    display: block;
-   margin: 10px 0 0 0 ;
+   margin: 10px 0 13px 0 ;
 }
 #wb_Text8
 {
    font-size: 13px;
-   margin: 10px 0 0 0 ;
+   margin: 10px 0 13px 0 ;
    padding: 0;
    text-align: left;
 }
@@ -8817,12 +8815,12 @@ body
    width: 100%;
    visibility: visible;
    display: block;
-   margin: 10px 0 0 0 ;
+   margin: 10px 0 13px 0 ;
 }
 #wb_Text10
 {
    font-size: 13px;
-   margin: 10px 0 0 0 ;
+   margin: 10px 0 13px 0 ;
    padding: 0;
    text-align: left;
 }
@@ -8979,12 +8977,12 @@ body
    width: 100%;
    visibility: visible;
    display: block;
-   margin: 10px 0 0 0 ;
+   margin: 10px 0 13px 0 ;
 }
 #wb_Text12
 {
    font-size: 13px;
-   margin: 10px 0 0 0 ;
+   margin: 10px 0 13px 0 ;
    padding: 0;
    text-align: left;
 }
@@ -9226,12 +9224,12 @@ body
    width: 100%;
    visibility: visible;
    display: block;
-   margin: 0;
+   margin: 0 0 13px 0 ;
 }
 #wb_Text15
 {
    font-size: 13px;
-   margin: 0;
+   margin: 0 0 13px 0 ;
    padding: 0;
    text-align: left;
 }
@@ -9321,22 +9319,21 @@ body
 }
 #LayoutGrid15 > .col-3
 {
-   display: flex;
-   flex-basis: 100%;
-   max-width: 100%;
+   display: none;
+   flex-basis: 0;
+   max-width: 0;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   align-content: flex-start;
-   align-items: flex-start;
-   justify-content: flex-start;
-   text-align: left;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
 }
 #wb_Section1
 {
-   width: 288px;
-   height: 583px;
+   width: 100%;
    visibility: visible;
-   display: inline-block;
+   display: flex;
    margin: 0;
 }
 #Section1-card-item0
@@ -10699,12 +10696,12 @@ body
    height: 199px;
    visibility: visible;
    display: inline-block;
-   margin: 20px 0 15px 0 ;
+   margin: 20px 0 25px 0 ;
 }
 #wb_Text36
 {
    font-size: 75px;
-   margin: 20px 0 15px 0 ;
+   margin: 20px 0 25px 0 ;
    padding: 0;
    text-align: left;
 }
